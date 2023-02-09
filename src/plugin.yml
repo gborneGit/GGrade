@@ -1,0 +1,13 @@
+main: fr.aang.ggrade.Main
+name: GGrade
+version: 1.0
+api-version: 1.19
+depend: [ Vault, Multiverse-Core ]
+author: [Aang]
+commands:
+  grade:
+    description: Gere les grades joueurs
+permissions:
+  ggrade.use:
+    description: Autorise tout
+    default: op

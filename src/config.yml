@@ -1,0 +1,339 @@
+# Le tuto
+tuto:
+  enable: true
+  world: 'world_safe'
+  loc: '-521.5,101,500.5,-115, 0'
+
+
+# Les grades
+grades:
+  0:
+    group: 'default'
+    item:
+      name: '&r&7[&eNew&7]'
+      material: 'COAL'
+      lore: 
+        - 'Grade pour les nouveaux joueurs'
+    perm: 'group.default'
+    price: 0
+  1:
+    group: 'coal1'
+    item:
+      name: '&r&7[&8CoalI&7]'
+      material: 'COAL'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.coal1'
+    map:
+      world: 'world_safe'
+      loc: '497.5,104,15.5,-160,0'
+    price: 0
+    give:
+      material: 'IRON_SWORD'
+  2:
+    group: 'coal2'
+    item:
+      name: '&r&7[&8CoalII&7]'
+      material: 'COAL'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.coal2'
+    map:
+      world: 'world_safe'
+      loc: '497.5,104,15.5,-160,0'
+    price: 50
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  3:
+    group: 'coal3'
+    item:
+      name: '&r&7[&8CoalIII&7]'
+      material: 'COAL'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.coal3'
+    map:
+      world: 'world_safe'
+      loc: '497.5,104,15.5,-160,0'
+    price: 100
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  4:
+    group: 'cuivre1'
+    item:
+      name: '&r&7[&6CuivreI&7]'
+      material: 'COPPER_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.cuivre1'
+    map:
+      world: 'world_safe'
+      loc: '501.5,102,485.5,-90,0'
+    price: 200
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  5:
+    group: 'cuivre2'
+    item:
+      name: '&r&7[&6CuivreII&7]'
+      material: 'COPPER_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.cuivre2'
+    map:
+      world: 'world_safe'
+      loc: '501.5,102,485.5,-90,0'
+    price: 400
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  6:
+    group: 'cuivre3'
+    item:
+      name: '&r&7[&6CuivreIII&7]'
+      material: 'COPPER_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.cuivre3'
+    map:
+      world: 'world_safe'
+      loc: '501.5,102,485.5,-90,0'
+    price: 800
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  7:
+    group: 'fer1'
+    item:
+      name: '&r&7[&7FerI&7]'
+      material: 'IRON_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.fer1'
+    map:
+      world: 'world_safe'
+      loc: '-3.5,103,502.5,180,0'
+    price: 1500
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  8:
+    group: 'fer2'
+    item:
+      name: '&r&7[&7FerII&7]'
+      material: 'IRON_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.fer2'
+    map:
+      world: 'world_safe'
+      loc: '-3.5,103,502.5,180,0'
+    price: 3000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  9:
+    group: 'fer3'
+    item:
+      name: '&r&7[&7FerIII&7]'
+      material: 'IRON_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.fer3'
+    map:
+      world: 'world_safe'
+      loc: '-3.5,103,502.5,180,0'
+    price: 5000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  10:
+    group: 'or1'
+    item:
+      name: '&r&7[&eOrI&7]'
+      material: 'GOLD_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.or1'
+    map:
+      world: 'world_safe'
+      loc: '-521.5,106,-29.5,90,0'
+    price: 10000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  11:
+    group: 'or2'
+    item:
+      name: '&r&7[&eOrII&7]'
+      material: 'GOLD_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.or2'
+    map:
+      world: 'world_safe'
+      loc: '-521.5,106,-29.5,90,0'
+    price: 15000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  12:
+    group: 'or3'
+    item:
+      name: '&r&7[&eOrIII&7]'
+      material: 'GOLD_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.or3'
+    map:
+      world: 'world_safe'
+      loc: '-521.5,106,-29.5,90,0'
+    price: 20000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  13:
+    group: 'diam1'
+    item:
+      name: '&r&7[&bDiamI&7]'
+      material: 'DIAMOND'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.diam1'
+    price: 30000
+    map:
+      world: 'world_safe'
+      loc: '-24.5,107,-526.5,-90,0'
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  14:
+    group: 'diam2'
+    item:
+      name: '&r&7[&bDiamII&7]'
+      material: 'DIAMOND'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.diam2'
+    map:
+      world: 'world_safe'
+      loc: '-24.5,107,-526.5,-90,0'
+    price: 40000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  15:
+    group: 'diam3'
+    item:
+      name: '&r&7[&bDiamIII&7]'
+      material: 'DIAMOND'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.diam3'
+    map:
+      world: 'world_safe'
+      loc: '-24.5,107,-526.5,-90,0'
+    price: 50000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  16:
+    group: 'neth1'
+    item:
+      name: '&r&7[&9NethI&7]'
+      material: 'NETHERITE_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.neth1'
+    map:
+      world: 'world_safe'
+      loc: '-483.5,103,-552.5,90,0'
+    price: 100000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  17:
+    group: 'neth2'
+    item:
+      name: '&r&7[&9NethII&7]'
+      material: 'NETHERITE_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.neth2'
+    map:
+      world: 'world_safe'
+      loc: '-483.5,103,-552.5,90,0'
+    price: 200000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
+  18:
+    group: 'neth3'
+    item:
+      name: '&r&7[&9NethIII&7]'
+      material: 'NETHERITE_INGOT'
+      lore: 
+        - 'Débloque rien dutout!'
+        - 'Oups :/'
+    perm: 'group.neth3'
+    map:
+      world: 'world_safe'
+      loc: '-483.5,103,-552.5,90,0'
+    price: 300000
+    give:
+      material: 'IRON_SWORD'
+      enchants:
+        name: 'SHARPNESS'
+        level: 1
